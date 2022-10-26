@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1d6120771d.js" crossorigin="anonymous"></script>
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <video autoplay muted loop id="myVideo">
+        <source src="Background - 49311.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <div class="content">
+        <h2 id="h2">ST &nbsp; PWATCH</h2>
+        <div class="container">
+            <div id="time">
+                <span class="digit" id="hr">0</span>
+                <span class="txt">Hr</span>
+                <span class="digit" id="min">0</span>
+                <span class="txt">Min</span>
+                <span class="digit" id="sec">0</span>
+                <span class="txt">Sec</span>
+                <span class="digit" id="count">0</span>
+
+            </div>
+            <div id="btn-container">
+                <button class="btn" id="start" onclick="start()">Start</button>
+                <button class="btn" id="stop" onclick="stop()">Stop</button>
+                <button class="btn" id="reset" onclick="reset()">Reset</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

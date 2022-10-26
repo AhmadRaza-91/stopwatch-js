@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: digital;
+    src: url(./digital-7.ttf);
+  }
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  #time{
+    text-align: right;
+    color: rgba(27, 198, 201, 0.979);
+    padding-right: 300px;
+    
+}
+
+.digit
+{ 
+    margin-right: 15px;
+    font-size:80px;
+    font-weight: bold;
+    font-family: digital;
+}
+#img
+{
+    height: 150px;
+    width: 120px;
+    background-color: #D2D9E6;
+}
+#h2 i{
+    color:rgba(255, 255, 255, 0.934);
+}
+#h2
+{   color:rgba(27, 198, 201, 0.979);
+    margin-bottom:53px;
+    font-style: italic;
+    text-align: right;
+    margin-right: 30px;
+    font-size: 160px;
+    
+}
+.btn
+{
+    margin-bottom: 30px;
+    padding:7px 25px;
+    font-size:15px;
+    margin:0px 10px;
+    color:white;
+    border: 0px;
+    cursor:pointer;
+}
+#btn-container
+{   margin-right: 304px;
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+
+#start
+{
+    background-color: #1abc9c;
+}
+#stop
+{
+    background-color: #3498DB;
+}
+#reset
+{
+    background-color: #e74c3c;
+} 
+/* #time{
+    text-align: center;
+    color: rgba(21, 19, 19, 0.934);
+}
+.container
+{
+   
+    padding-top: 130px;
+    padding-left: 35px;
+}
+
+#myVideo {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+.digit
+{
+    font-size:150px;
+    font-weight: bold;
+}
+.txt
+{
+    font-size: 40px;
+    font-weight:bold;
+}
+#btn-container
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn
+{
+    padding:7px 25px;
+    font-size:15px;
+    margin:0px 10px;
+    color:white;
+    border: 0px;
+    cursor:pointer;
+}
+#start
+{
+    background-color: #1abc9c;
+}
+#stop
+{
+    background-color: #3498DB;
+}
+#reset
+{
+    background-color: #e74c3c;
+} */
